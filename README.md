@@ -1,2 +1,2 @@
 # elas-na-tech
- Formação online de desenvolvimento web com Java
+ Formação online de desenvolvimento web 
