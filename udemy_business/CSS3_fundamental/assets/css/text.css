@@ -1,0 +1,13 @@
+.title, .text, .text_description{
+  text-align: center;
+}
+
+.title{
+ color: #4a87e8 ;
+ margin: 40px 0 20px;
+}
+
+.text_description{
+  padding: 8px;
+  margin-bottom: 10px;
+}

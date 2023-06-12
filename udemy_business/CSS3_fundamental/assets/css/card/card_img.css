@@ -1,0 +1,37 @@
+.card_img{
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+}
+
+.image_01{
+  background-image: url('/udemy_business/CSS3_fundamental/assets/image/yu-wang-fFO5DsFV5gk-unsplash.jpg');
+}
+
+.image_02{
+  background-image: url('/udemy_business/CSS3_fundamental/assets/image/gabriel-yuji-qgaNFpQ9Abo-unsplash.jpg');
+}
+
+.image_03{
+  background-image: url('/udemy_business/CSS3_fundamental/assets/image/glen-carrie-rg7h0GrHovM-unsplash.jpg');
+}
+
+.image_04{
+  background-image: url('/udemy_business/CSS3_fundamental/assets/image/jean-wimmerlin-GerG5v2UQqI-unsplash.jpg');
+}
+
+.image_05{
+  background-image: url('/udemy_business/CSS3_fundamental/assets/image/john-torcasio-2f33ykzzPCU-unsplash.jpg');
+}
+
+.image_06{
+  background-image: url('/udemy_business/CSS3_fundamental/assets/image/mark-basarab-y421kXlUOQk-unsplash.jpg');
+}
+
+.image_07{
+  background-image: url('/udemy_business/CSS3_fundamental/assets/image/max-harlynking-ACySZL3MoCY-unsplash.jpg');
+}
+
+.image_08{
+  background-image: url('/udemy_business/CSS3_fundamental/assets/image/wexor-tmg-L-2p8fapOA8-unsplash.jpg');
+}
