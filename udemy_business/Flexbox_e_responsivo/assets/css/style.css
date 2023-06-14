@@ -1,0 +1,23 @@
+/*HEADER*/
+@import url('header/header.css');
+@import url('header/header-img.css');
+@import url('header/header-box.css');
+@import url('header/header-txt.css');
+/*NAVBAR*/
+@import url('navbar/navbar-link.css');
+@import url('navbar/navbar-list.css');
+/*BANNER*/
+@import url('banner/banner.css');
+@import url('banner/banner-img.css');
+@import url('banner/banner-info.css');
+@import url('banner/banner-txt.css');
+/*ABOUT SECTION*/
+@import url('about_section/about_section.css');
+@import url('about_section/about_section--txt.css');
+/*SKILLS SECTION*/
+@import url('skills_section/skills_section.css');
+@import url('skills_section/skills_section-img.css');
+@import url('skills_section/skills_section-txt.css');
+@import url('skills_section/skills_section-container.css');
+
+

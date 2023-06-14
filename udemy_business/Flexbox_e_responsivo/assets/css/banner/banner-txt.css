@@ -1,0 +1,9 @@
+.banner--title, .banner--text{
+  color: #fff;
+}
+
+.banner--text{
+  background-color: #ed1e24;
+  font-weight: bold;
+  padding: 15px;
+}
