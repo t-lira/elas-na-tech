@@ -1,0 +1,12 @@
+.footer{
+  padding: 10px;
+  background-color: #ed1e24;
+  color: #fff;
+  text-align: center;
+}
+
+@media(min-width:1024px){
+  .footer{
+    padding: 50px;
+  }
+}

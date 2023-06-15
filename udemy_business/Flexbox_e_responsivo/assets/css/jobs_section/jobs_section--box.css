@@ -1,0 +1,9 @@
+.jobs_section--box{
+  flex: 1 1 200px;
+  margin-left: 25px;
+  margin-right: 25px;
+  height: 300px;
+  border-right: 2px solid #ed1e24;
+  border-bottom: 2px solid #ed1e24;
+}
+

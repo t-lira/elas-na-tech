@@ -1,0 +1,19 @@
+.jobs_section--container{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 25px;
+  gap: 25px;
+
+}
+
+@media(min-width:1024px){
+  .jobs_section--container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    max-width:1200px ;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+  }
+}

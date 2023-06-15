@@ -1,5 +1,12 @@
 .skills_section--container{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
+}
+
+@media(min-width:1024px){
+  .skills_section--container{
+    display: flex;
+    flex-direction: row;
+  }
 }

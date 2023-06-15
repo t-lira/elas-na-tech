@@ -1,0 +1,22 @@
+.form{
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.form--input, .form--textarea{
+border: none;
+padding: 15px;
+margin-bottom: 20px;
+width: 100%;
+display: block;
+}
+
+@media(min-width:1024px){
+  .form{
+    width: 400px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+}

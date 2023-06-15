@@ -1,9 +1,10 @@
 .skills-container{
-  flex: 1 1 1;
+  flex: 1 1 200px;
   text-align: center;
   padding: 60px 25px;
 }
-.center{
+.container--center{
   border-left: 1px solid #CCC;
   border-right: 1px solid #CCC;
+
 }
