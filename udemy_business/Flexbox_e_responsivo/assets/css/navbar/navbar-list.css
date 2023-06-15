@@ -1,4 +1,10 @@
 .navbar--list{
   display: inline-block;
   margin-left: 20px;
+  margin-top: 5px;
+}
+@media(min-witdh:1024px){
+  .navbar--list{
+    margin-left: 20px;
+  }
 }

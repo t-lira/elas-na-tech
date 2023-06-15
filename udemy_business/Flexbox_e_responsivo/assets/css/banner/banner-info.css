@@ -2,5 +2,10 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-  gap: 30px 0 ;
+  gap: 15px 0 ;
+}
+@media(min-width:1024px){
+  .banner--info{
+    gap: 30px 0 ;
+  }
 }

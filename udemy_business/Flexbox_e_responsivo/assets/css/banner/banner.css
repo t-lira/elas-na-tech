@@ -1,6 +1,12 @@
 .banner{
-  background-image: url('/udemy_business/Flexbox_e_responsivo/assets/image/bg-projeto.jpg');
-  background-size: cover;
-  height: 70vh;
-  padding-top: 15vh;
+  background: url('/udemy_business/Flexbox_e_responsivo/assets/image/bg-projeto.jpg') no-repeat center / cover;
+  height: 50vh;
+ 
+  padding-top: 10px;
+}
+@media(min-width:1024px){
+  .banner{
+    height: 70vh;
+    padding-top: 15vh;
+  }
 }

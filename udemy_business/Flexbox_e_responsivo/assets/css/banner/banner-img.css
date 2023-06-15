@@ -1,5 +1,10 @@
 .banner--img{
-  width: 120px;
+  width: 100px;
   border-radius: 50%;
   background-color: #ed1e24;
+}
+@media(min-width:1024px){
+  .banner--img{
+    width: 150px;
+  }
 }
