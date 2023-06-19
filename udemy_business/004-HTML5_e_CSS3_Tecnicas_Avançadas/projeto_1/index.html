@@ -4,9 +4,119 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Projeto - Doceria</title>
+  <link rel="shortcut icon" href="assets/img/stand.png" type="image/x-icon">
+  <!--link css-->
+  <link rel="stylesheet" href="assets/css/reset.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <!--google fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
-  
+  <!--start header-->
+  <header class="header">
+
+    <div class="header-container">
+      <img src="assets/img/stand.png" alt="lojo doceria" class="header-img">
+      <h1 class="header-title">Doceria</h1>
+    </div>
+
+    <nav class="navigation">
+      <ul class="navigation-menu">
+        <li class="navigation-item">
+          <a href="#section-welcome" class="navigation-link">Bem vindo</a>
+        </li>
+        <li class="navigation-item">
+          <a href="#section-about" class="navigation-link">Sobre nós</a>
+        </li>
+        <li class="navigation-item">
+          <a href="#section-doces-1" class="navigation-link">Doces 1</a>
+        </li>
+        <li class="navigation-item">
+          <a href="#section-doces-2" class="navigation-link">Doces 2</a>
+        </li>
+        <li class="navigation-item">
+          <a href="#section-contato" class="navigation-link">Entre em contato</a>
+        </li>
+      </ul>
+    </nav>
+
+  </header>
+   <!--end header-->
+  <main class="main">
+    <section id="section-welcome" class="section-welcome">
+      <div class="s-welcome-banner"></div>
+
+        <h1 class="s-welcome--content--title">Seja Bem-vindo a doceria</h1>
+
+      <div class="s-welcome--content">
+
+        <div class="s-welcome-banner-aside"></div>
+
+        <div class="s-welcome-description">
+          <p class="s-welcome-description--text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, ut nobis. Aperiam fugit debitis sequi totam nihil, fuga officiis placeat ut dicta, magnam numquam suscipit neque perferendis? Cumque, blanditiis aliquid.</p>
+
+          <p class="s-welcome-description--text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae, eos. Deserunt, consectetur hic at laboriosam illum sit minus libero provident non, expedita, nobis obcaecati optio laborum harum quis delectus quam!</p>
+
+          <p class="s-welcome-description--text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate exercitationem rem iste suscipit consequuntur quos perspiciatis veniam, esse assumenda quo ex eum qui, soluta velit illum recusandae eaque iure aliquid?</p>
+          <a href="#" class="s-welcome--button">Leia Mais</a>
+          </div>
+    </div>
+    </section>
+
+    <section  id="section-about" class="section-about">
+      <div class="s-about--content">
+        <h1>Sobre nós</h1>
+        <div class="s-about--banner"></div>
+        <div class="s-about-description">
+          <p class="s-about-description--text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, ut nobis. Aperiam fugit debitis sequi totam nihil, fuga officiis placeat ut dicta, magnam numquam suscipit neque perferendis? Cumque, blanditiis aliquid.</p>
+          <p class="s-about-description--text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae, eos. Deserunt, consectetur hic at laboriosam illum sit minus libero provident non, expedita, nobis obcaecati optio laborum harum quis delectus quam!</p>
+          <p class="s-about-description--text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate exercitationem rem iste suscipit consequuntur quos perspiciatis veniam, esse assumenda quo ex eum qui, soluta velit illum recusandae eaque iure aliquid?</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-gallery--one">
+      <h2 class="s-gallery--title">doces 1</h2>
+      <div class="s-gallery--img--one gallery-image image--01"></div>
+      <div class="s-gallery--img--one gallery-image image--02"></div>
+      <div class="s-gallery--img--one gallery-image image--03"></div>
+      <div class="s-gallery--img--one gallery-image image--04"></div>
+      <div class="s-gallery--img--one gallery-image image--05"></div>
+    </section>
+
+    <section class="section-gallery--two">
+      <h2 class="s-gallery--title">doces 2</h2>
+      <div class="s-gallery--img--two gallery-image image--06"></div>
+      <div class="s-gallery--img--two gallery-image image--07"></div>
+      <div class="s-gallery--img--two gallery-image image--08"></div>
+    </section>
+
+    <section class="section-gallery--tree">
+      <h2 class="s-gallery--title">doces 3</h2>
+      <div class="s-gallery--img--tree gallery-image image--09"></div>
+      <div class="s-gallery--img--tree gallery-image image--010"></div>
+      <div class="s-gallery--img--tree gallery-image image--011"></div>
+      <div class="s-gallery--img--tree gallery-image image--012"></div>
+    </section>
+
+
+    <section class="contact">
+      <h2>Entre em contato</h2>
+      <form action="" id="section-contact">
+        <input type="text" name="name" placeholder="nome">
+        <input type="email" name="email" placeholder="email">
+        <textarea name="messge" id="" cols="30" rows="10" placeholder="Escreva sua mensagem"></textarea>
+        <input type="submit" value="Enviar">
+      </form>
+    </section>
+
+    <footer class="footer">
+      <p>Desenvolvido por T.Lira</p>
+
+    </footer>
+  </main>
 </body>
 </html>

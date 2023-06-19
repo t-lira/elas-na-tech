@@ -1,0 +1,22 @@
+/*HEADER*/
+@import url('header/header.css');
+@import url('header/header-container.css');
+@import url('header/header-img.css');
+@import url('header/header-txt.css');
+/*navigation*/ 
+@import url('header/navigation/navigation-link.css');
+@import url('header/navigation/navigation-item.css');
+
+:root{
+  --color-blue-dark:#37343c;
+  --color-blue:#006599;
+  --color-white: #fff;
+  --color-yellow:#f4ef5e;
+}
+
+.main{
+  width: calc(100% - 300px);
+  min-height: 100vh;
+  margin-left: 300px;
+}
+

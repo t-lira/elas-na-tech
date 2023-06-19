@@ -1,0 +1,10 @@
+.header{
+  position: fixed;
+  height: 100%;
+  width: 300px;
+  padding-top:40px ;
+  background-color: var(--color-blue);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
