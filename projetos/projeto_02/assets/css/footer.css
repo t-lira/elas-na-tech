@@ -1,0 +1,14 @@
+.footer{
+  background-color: rgb(201, 201, 218);
+  padding: 10px;
+  text-align: center;
+}
+
+.footer--link{
+  color: black;
+  cursor: pointer;
+}
+
+.footer--link:hover{
+ text-decoration: underline;
+}
