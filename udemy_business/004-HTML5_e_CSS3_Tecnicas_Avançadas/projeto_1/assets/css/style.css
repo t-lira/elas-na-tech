@@ -1,15 +1,29 @@
-/*HEADER*/
+/*header*/
 @import url('header/header.css');
 @import url('header/header-container.css');
 @import url('header/header-img.css');
 @import url('header/header-txt.css');
+
 /*navigation*/ 
 @import url('header/navigation/navigation-link.css');
 @import url('header/navigation/navigation-item.css');
 
+/*section-welcome*/
+@import url('main/section-welcome/s-welcome.css');
+/*section-about*/
+@import url('main/section-about/section-about.css');
+/*section-gallery*/
+@import url('main/section-gallery/section-gallery.css');
+/*section-contact*/
+@import url('main/form/form.css');
+/*footer*/
+@import url('main/footer/footer.css');
+
+
 :root{
   --color-blue-dark:#37343c;
   --color-blue:#006599;
+  --color-hover:#2730C6;
   --color-white: #fff;
   --color-yellow:#f4ef5e;
 }

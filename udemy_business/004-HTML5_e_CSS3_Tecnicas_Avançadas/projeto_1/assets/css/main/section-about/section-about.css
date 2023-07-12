@@ -1,0 +1,40 @@
+.s-about--content{
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 40px;
+}
+
+.s-about--banner{
+  background: url('/projeto_1/assets/img/banner4.jpg') no-repeat center/ cover;
+  width: 100%;
+}
+
+.s-about-description{
+  margin-right: 35px;
+}
+
+.s-about--button{
+  background-color: var(--color-blue);
+  padding: 10px 20px;
+  transition: .5s;
+  color: var(--color-white);
+  cursor: pointer;
+}
+
+.s-about--button:hover{
+  background-color: var(--color-hover);
+}
+
+.s-about--content--title{
+  color: var(--color-blue);
+  font-size: 2rem;
+  margin-top: 10px;
+  margin-left: 35px;
+}
+
+.s-about-description--text{
+  line-height: 1.5;
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+  text-align: justify;
+}
