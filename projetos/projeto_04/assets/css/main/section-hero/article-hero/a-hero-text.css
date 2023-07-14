@@ -1,0 +1,14 @@
+.a-hero-box--txt{
+  padding: 15px;
+}
+
+.a-hero--text{
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+
+.a-hero--title{
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: var(--dark-green);
+}

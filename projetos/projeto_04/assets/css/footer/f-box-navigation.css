@@ -1,0 +1,9 @@
+.f-box-navigation{ 
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+@media(min-width:1024px){
+  .f-box-navigation{
+    margin-bottom: 0;
+  }
+}

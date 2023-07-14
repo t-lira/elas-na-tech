@@ -1,0 +1,16 @@
+.footer--text{
+  color: var(--white);
+}
+
+.footer--title{
+  color: var(--white);
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.footer--txt{
+  color: var(--white);
+  text-align: center;
+  margin-top: 10px;
+}

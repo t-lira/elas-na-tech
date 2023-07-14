@@ -1,0 +1,17 @@
+.header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--black);
+  padding: 8px;
+  position: fixed;
+  width: 100vw;
+  
+}
+
+@media(min-width:1024px){
+  .header{
+    display: flex;
+    justify-content: space-around;
+  }
+}

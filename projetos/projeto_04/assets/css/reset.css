@@ -1,0 +1,40 @@
+/*header*/
+@import url('header/header.css');
+@import url('header/header-img.css');
+@import url('header/header-navigation/navigation-link.css');
+@import url('header/header-navigation/navigation-item.css');
+@import url('header/header-navigation/h-navigation-menu.css');
+/*section banner*/
+@import url('main/section-banner.css');
+/*section hero*/
+@import url('main/section-hero/section-hero.css');
+@import url('main/section-hero/article-hero/article-hero.css');
+@import url('main/section-hero/article-hero/a-hero-img.css');
+@import url('main/section-hero/article-hero/a-hero-text.css');
+/*footer*/
+@import url('footer/footer.css');
+@import url('footer/f-box-navigation.css');
+@import url('footer/f-container.css');
+@import url('footer/f-txt.css');
+@import url('footer/f-link.css');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+:root{
+  --dark-green:#00747C;
+  --light-green:#00BBC9;
+  --light-gray:#CACACA;
+  --dark-gray:#878787;
+  --black:#343434;
+  --white:#fff;
+}
+
+

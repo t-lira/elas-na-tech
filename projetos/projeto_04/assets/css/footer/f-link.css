@@ -1,0 +1,8 @@
+.f-navigation--link{
+  color: var(--white);
+  transition: .5s;
+}
+
+.f-navigation--link:hover{
+  color: var(--light-green);
+}

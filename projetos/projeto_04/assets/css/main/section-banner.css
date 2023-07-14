@@ -1,0 +1,5 @@
+.banner{
+  background: url('/projeto_04/assets/image/dog.jpg') no-repeat center/ cover;
+  height: calc(100vh - 60px);
+  background-attachment: fixed;
+}

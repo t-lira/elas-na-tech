@@ -1,0 +1,11 @@
+.header-img{
+  display: none;
+  
+}
+
+@media(min-width:1024px){
+  .header-img{
+  width: 40px;
+  display: block;
+}
+}
